@@ -1,13 +1,11 @@
 ***
+https://help.github.com/categories/writing-on-github/
+> 読んどけ
 # Bravo!-world
 ***
 ---
 # H1
 ## H2
-
-1. x
-1. y
-1. z
 
 １段落目
 
@@ -22,10 +20,20 @@
 インラインコードは、バッククオーテーションで囲う  
 `$hoge = 1`
 
-複数行のコードは、半角スペースを頭に4つ (うまくいかない)
-   `$hoge1 = 1`
-    `$hoge2 = 2`  
-    `$hoge3 = 3` 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+
+
+複数行のコードは、バッククオート3つ
+```
+$hoge1 = 1
+$hoge2 = 2
+$hoge3 = 3
+$hoge4 = 4
+```
 
 ---
 Name
@@ -54,4 +62,3 @@ Overview
 ## Author
 
 [tcnksm](https://github.com/tcnksm)
-
