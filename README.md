@@ -25,7 +25,6 @@ https://help.github.com/categories/writing-on-github/
 インラインコードは、バッククオーテーションで囲う  
 `$hoge = 1`
 
-表組  
 |First Header(左寄せ)|Second Header(センター)|Third(右) |
 |:-------------|:-------------:|------:|
 |Content Cell|Content Cell|CC|
