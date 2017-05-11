@@ -1,6 +1,10 @@
 ***
+わすれるなかれ
+> 改行は半角スペース２つ  
+
+# 読んどけ
 https://help.github.com/categories/writing-on-github/
-> 読んどけ
+
 # Bravo!-world
 ***
 ---
@@ -20,14 +24,16 @@ https://help.github.com/categories/writing-on-github/
 インラインコードは、バッククオーテーションで囲う  
 `$hoge = 1`
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+表組  
+|First Header(左寄せ)|Second Header(センター)|Third(右) |
+|:-------------|:-------------:|------:|
+|Content Cell|Content Cell|CC|
+|Content Cell|Content Cell|CC|
 
 
+複数行のコードは、バッククオート3つ。最初のバッククオートの後ろに言語指定すると、シンタックスハイライトしてくれる模様
+https://help.github.com/articles/creating-and-highlighting-code-blocks/
 
-複数行のコードは、バッククオート3つ
 ```
 $hoge1 = 1
 $hoge2 = 2
